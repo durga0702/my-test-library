@@ -3,7 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestLibbModule } from 'projects/test-libb/src/public-api';
+import { TestLibbModule } from 'test-libb';
+
+
 
 @NgModule({
   declarations: [
